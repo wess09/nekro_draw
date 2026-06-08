@@ -7,10 +7,10 @@ from nekro_agent.api.plugin import ConfigBase, ExtraField, NekroPlugin
 
 # 创建插件实例
 plugin = NekroPlugin(
-    name="绘画插件",
-    module_name="draw",
-    description="学会画画！",
-    version="0.2.0",
+    name="绘画插件（GPT-Image特化版）",
+    module_name="nekro_draw",
+    description="学会画画！（GPT-Image特化版）",
+    version="0.5.0",
     author="KroMiose",
     url="https://github.com/KroMiose/nekro-agent",
     i18n_name=i18n.i18n_text(
