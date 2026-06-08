@@ -94,7 +94,7 @@ async def draw(
     """Generate or modify images
 
     Args:
-        prompt (str): 用简体中文写成一句完整、连贯、尽可能详细的图片描述，自然包含主体数量与身份、外貌特征、服饰道具、姿态动作、表情情绪、场景环境、构图视角、镜头距离、光线色彩、材质纹理、画面风格、氛围基调和需要保留或避免的关键细节；不要分点、不要换行、不要使用英文。
+        prompt (str): 用简体中文写成一句完整连贯的图片描述、不要使用英文 生图模型有充足的语言理解能力 不需要写过于详细 简单描述特征即可 涉及IP类角色比如碧蓝航线xxx 原神xxx 异环xxx等 请使用对应游戏&IP的名字。
 
         size (str): Image dimensions (e.g., "1024x1024" square, "512x768" portrait, "768x512" landscape)
         guidance_scale (float): Guidance scale for the image generation, lower is more random, higher is more like the prompt (default: 7.5, from 0 to 20)
